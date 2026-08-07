@@ -1,0 +1,25 @@
+{
+  "name": "zo-tui",
+  "version": "0.1.0",
+  "description": "OpenTUI-based control panel for your Zo Computer — services, files, automations, and chat in one terminal UI.",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.tsx",
+    "start": "bun run src/index.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opentui/core": "0.3.2",
+    "@opentui/react": "0.3.2",
+    "react": "19.2.7",
+    "zocomputer": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-reconciler": "^0.33.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5"
+  }
+}

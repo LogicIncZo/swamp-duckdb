@@ -4,6 +4,8 @@
 *Plain-language edition · August 2026 · CashlessConsumer research desk*
 *Companion to the full technical report. This guide opens no stolen files and repeats none of their contents — it only explains what is publicly known and what it means for you.*
 
+> **References to claims:** every figure and statement below is traceable. Each claim maps to a named public source, coded by evidence class — **A** = the criminals' own announcement · **B** = independently observed infrastructure behaviour · **C** = official/regulatory record · **D** = independent security-community reporting. The full mapping lives in the appendix, *How We Know Every Claim*. This is the plain-language companion to the technical report at `Documents/research/bob-breach-technical-report.md`.
+
 ---
 
 ## The Story in One Minute
@@ -166,3 +168,38 @@ Four things would turn slow damage into accountability:
 - Until any of that changes, **your alertness is the only security control that is definitely switched on.**
 
 *"Analyse systems, not victims."* — This guide quotes no stolen documents, names no customers, and publishes no leaked content. It exists so that ordinary account-holders don't have to wait for institutions to explain what was done to them.
+
+---
+
+## Appendix — How We Know Every Claim
+
+Each claim in this guide is filed under the same evidence-class system the full technical report uses:
+**A** = the criminals' own announcement · **B** = independently observed infrastructure behaviour ·
+**C** = official/regulatory record · **D** = independent security-community reporting. The letter in brackets is the class.
+
+| Claim in this guide | Evidence class | The public source behind it |
+|---|---|---|
+| A gang called Triple X posted ~700 GB – 1 TB of bank data | A / D | The gang's own leak-site post, indexed by public ransomware trackers (WatchGuard tracker listing) |
+| The haul went up on a hidden, freely browsable website within a day or two | B | Our own metadata-only observation of the Tor service (26 Jul 2026): no file contents opened, only structure and availability |
+| A month passed with no substantive statement from bank / RBI / CERT-In | C | Continuous monitoring of official channels and press across July–August 2026 (absence of record) |
+| Earlier Indian bank leaks grabbed records, this one allegedly took whole paperwork archive | Analysis | Comparison of publicly reported prior breaches (table exports) vs. the claimed document-store capture, from the technical report §1 |
+| The likely way in was one employee's password | D | Third-party threat-intel attributing a compromised/weak employee email credential (GalaxyWarden-attributed reporting in security press); confidence: probable, not proven |
+| The core money-record (vault) system was reportedly not touched | D | Same independent reporting; explicitly unverified by the bank |
+| Publish-without-locking attacks grew from ~2% to ~22% | D | Industry double-extortion telemetry (Zscaler / Vectra reports), 2025–26 |
+| US: 147M people, US$700M settlement, public post-mortems, prosecutions | C / D | GAO-18-559 audit; US House Oversight Committee report; FTC/CFPB consent orders |
+| Australia: A$50M+ ceilings, class actions, taskforce, new law in weeks | C | Privacy Legislation Amendment Act 2022; law-firm analyses of Optus/Medibank proceedings (Allens, Clifford Chance) |
+| India 2018 Aadhaar leak: journalist charged instead of flaw fixed | C | Record of the UIDAI-vs-Tribune FIR (IPC + IT Act + Aadhaar Act §§36–37); Editors Guild and press record |
+| India 2023 vaccination portal: "not a breach," bots blocked | C / D | Public denial statements and contemporaneous reporting (The Wire chronology) |
+| India 2023 medical-test dataset: silence, probe never concluded | C | Resecurity Hunter Team advisory; government silence; The Hindu reporting |
+| A volunteer site lets people check whether email is in a leak | D | Have I Been Pwned; civilian-discovery work by Troy Hunt and Bob Diachenko |
+| No such check exists for Indian IDs (Aadhaar, PAN, mobile) | Analysis | The technical report's India gap analysis §10(2) |
+| A six-hour reporting duty to the cyber agency exists | C | CERT-In Directions, April 2022; testable via RTI |
+| The national financial-fraud helpline is 1930 | C | Official cybercrime.gov.in guidance of the Indian Cyber Crime Coordination Centre |
+| India's legal penalty ceiling is ₹250 crore | C | Digital Personal Data Protection Act, 2023 |
+| Stock-market firms must disclose material events; banks need not | Analysis | SEBI material-event listing rules vs. the absence of an RBI equivalent; technical report §10(5) |
+
+**Three honest caveats.** (1) The *scale, contents and identity* of the stolen material are reported claims, not court-proven facts — the bank has confirmed nothing. Treat confident numbers above as the criminals' own boasts, cross-checked with the tracker community. (2) The "one password" entry narrative is the most credible available account but has not been forensically published; treat it as probable, not proven. (3) The September 2018 Aadhaar case references the *Tribune*'s reporting episode involving the UIDAI; the precise legal outcome remains contested and is cited here to illustrate the national pattern of response, not as settled law.
+
+**Nothing here quotes a stolen document or names a customer.** That is a deliberate boundary. These references cite *public accounts of the event*, not the event's contents — the same standard the full technical report holds to.
+
+*"The philosophers have only interpreted the world; the point is to change it."*

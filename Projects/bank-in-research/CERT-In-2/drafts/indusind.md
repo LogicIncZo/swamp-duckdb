@@ -1,0 +1,129 @@
+# Responsible Disclosure: Dangling DNS Records on `INDUSIND.bank.in` (2 records)
+
+| | |
+| --- | --- |
+| To | incident@cert-in.org.in |
+| From | Cashless Consumer <cashlessconsumerin@gmail.com> |
+| Date | 26 August 2026 |
+| Status | **DRAFT v0.2 - not sent** |
+| Entity | IndusInd Bank Ltd (indusind) |
+| Highest severity | **HIGH** |
+| Records affected | 2 |
+| Registry context | IDRBT `.bank.in` domain space (RBI-mandated) |
+
+> **Drafting note (v0.2):** numbers and evidence auto-generated from the scan of
+> 25-26 Aug 2026. Severities re-assessed 28 Aug 2026 after a claimability review
+> (AWS ELB/ALB + Salesforce + F5 names are claimable; CloudFront, Global
+> Accelerator, Cloudflare and Akamai edge targets require owner validation and
+> are NOT claimable). Human review required before any dispatch.
+
+---
+
+## 1. Summary
+
+Two production-pattern hostnames tied to the bank's UPI Participant Interface Programme naming (indusupiprd, indusupipreprd) point at F5 XC load balancers that no longer resolve. 'upip' aligns with UPI PIP endpoint conventions used for payment-system interconnects.
+
+**Affected hostnames (2 records):** `indusupipreprd.indusind.bank.in`, `indusupiprd.indusind.bank.in`.
+
+We are reporting this to CERT-In under its vulnerability-note process because
+the affected names sit inside the RBI-mandated `.bank.in` namespace operated by
+IDRBT, and because successful exploitation would let an attacker serve active
+content on a hostname users have been trained to trust as "a bank domain".
+We request that CERT-In coordinate remediation with the bank (and IDRBT where
+registry-level action is useful).
+
+## 2. What we did
+
+- Universe: the full published `indusind.bank.in` zone from the IDRBT-derived
+  dataset released by the bank-in-domains project (release v2026.8.4, 23 Aug 2026).
+- Every hostname was resolved via the bank's own authoritative DNS on 25 Aug 2026;
+  records whose CNAME/A target no longer resolve were flagged as *dangling*.
+- Each flagged record was then manually re-verified with independent DNS queries
+  (repeated at generation time of this draft) to exclude transient failures,
+  wildcard catches, and CDN geo-variation false positives.
+- No probing, exploitation, or interaction with bank applications took place;
+  all observations come from passive public DNS data plus HTTP HEAD checks.
+
+## 3. Findings
+
+
+### F1 - `indusupipreprd.indusind.bank.in`
+
+| Field | Value |
+| --- | --- |
+| Severity | **HIGH** |
+| Issue class | F5 Distributed Cloud (Volterra) deleted load balancer (name claimable) |
+| Dangling target | `ves-io-5dae1a1b-f8bd-47d5-8615-8c48e2a73e1d.ac.vh.ves.io` |
+
+The bank's authoritative nameservers still publish this record, but the
+service it points to is gone:
+
+```text
+$ dig +noall +answer indusupipreprd.indusind.bank.in CNAME
+indusupipreprd.indusind.bank.in. 400 IN  CNAME  ves-io-5dae1a1b-f8bd-47d5-8615-8c48e2a73e1d.ac.vh.ves.io.
+
+$ dig indusupipreprd.indusind.bank.in   # -> status: NXDOMAIN
+# CNAME target does not resolve (NXDOMAIN); the bank still owns the
+# name, so anyone who claims the dangling target serves content here.
+```
+
+**Why this matters.** ves.io load-balancer addresses are globally reusable: when a Distributed Cloud LB is deleted its name can be recreated by another tenant. A claimant receives traffic (including TLS, depending on cert state) addressed to the bank's hostname and can proxy or phish it. Several of these names relate to emailers and Video-KYC flows, raising phishing value.
+
+**Assessment note (v0.2).** Claimability of this target type could not be established; treat as broken-service finding pending vendor-specific triage.
+
+### F2 - `indusupiprd.indusind.bank.in`
+
+| Field | Value |
+| --- | --- |
+| Severity | **HIGH** |
+| Issue class | F5 Distributed Cloud (Volterra) deleted load balancer (name claimable) |
+| Dangling target | `ves-io-35f55266-c295-495e-be45-70cab758b574.ac.vh.ves.io` |
+
+The bank's authoritative nameservers still publish this record, but the
+service it points to is gone:
+
+```text
+$ dig +noall +answer indusupiprd.indusind.bank.in CNAME
+indusupiprd.indusind.bank.in. 400 IN  CNAME  ves-io-35f55266-c295-495e-be45-70cab758b574.ac.vh.ves.io.
+
+$ dig indusupiprd.indusind.bank.in   # -> status: NXDOMAIN
+# CNAME target does not resolve (NXDOMAIN); the bank still owns the
+# name, so anyone who claims the dangling target serves content here.
+```
+
+**Why this matters.** ves.io load-balancer addresses are globally reusable: when a Distributed Cloud LB is deleted its name can be recreated by another tenant. A claimant receives traffic (including TLS, depending on cert state) addressed to the bank's hostname and can proxy or phish it. Several of these names relate to emailers and Video-KYC flows, raising phishing value.
+
+## 4. Recommended remediation
+
+In order of urgency:
+
+**F5 Distributed Cloud (Volterra) deleted load balancer** *(fix within days)*
+
+Remove the stale CNAME from bank DNS. For any still-required service, recreate the F5 XC load balancer with the same advertised name under the bank's tenant and restore the record only after verification. Add ves.io names to the quarterly DNS-reconciliation inventory.
+
+**Housekeeping (this month)**
+
+- Inventory every CNAME under the bank's `.bank.in` zone and reconcile it against
+  live cloud resources; repeat quarterly. The registry (IDRBT) can assist with a
+  zone export on request.
+- Route all public DNS changes through change control that requires the target's
+  owner to confirm decommissioning *before* the record is edited.
+- Consider CERT-In empanelled auditor validation of the cleanup, and add dangling-
+  record checks to periodic VA cycles.
+
+## 5. Impact statement
+
+Potential interception/manipulation of UPI-PIP style interconnect traffic if these names are embedded in counterparty configurations.
+
+We have not attempted to register or claim any of the dangling targets, and we
+will not do so. All findings were derived passively. We request acknowledgement
+of this report and, where practicable, coordination with IDRBT so that similar
+hygiene issues across other banks in the namespace can be addressed systematically.
+
+---
+
+*Generated by the Cashless Consumer bank-in audit pipeline. Draft only -
+requires human review before sending. Evidence files: `evidence/takeover_candidates.json`,
+`evidence/dns_sweep.jsonl`.*
+
+**Assessment note (v0.2).** Claimability of this target type could not be established; treat as broken-service finding pending vendor-specific triage.

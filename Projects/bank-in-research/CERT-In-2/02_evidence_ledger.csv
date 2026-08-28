@@ -1,0 +1,83 @@
+hostname,dangling_target,issue_class,severity,bank,verified
+apollo-content.axis.bank.in,d13dwtmxjp7qqk.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+devneo.axis.bank.in,ad81a19ad1c875ade.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+devneopay.axis.bank.in,a98a41db71f1fff3a.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+juno-content.axis.bank.in,d1ovscizflyfb3.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+mercury-content.axis.bank.in,d15i12s32m5q24.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+neo.axis.bank.in,a85426234ca3c91e3.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+neocldweb.axis.bank.in,d1r0faotr5jcix.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+neopay.axis.bank.in,ad2630be5e827fd7e.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+neocldapp.axis.bank.in,d1feaw0wpl3snc.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+nucleus-content.axis.bank.in,d26jekaep9z3yg.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+oniuat.axis.bank.in,a841df261f5f29b0b.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+qaneopay.axis.bank.in,adfc74bab6e1091a2.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+qaneo.axis.bank.in,a2875293e8ce78399.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+sitvelocitypay.axis.bank.in,aa4da80d046aa7135.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+sitvelocity.axis.bank.in,a1c8f5525d2030f8e.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+supernova-content.axis.bank.in,d2bf6tjmdy10dn.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,Axis Bank Ltd,26 August 2026
+uatembsaas.axis.bank.in,af924497213569bd2.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+uatembsaaspay.axis.bank.in,a46a81487ad9e3583.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+uatvelocity.axis.bank.in,a993919e3c123b819.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+uatneo.axis.bank.in,a300fc6ffde89e4dd.awsglobalaccelerator.com,AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design),LOW,Axis Bank Ltd,26 August 2026
+waf.canarauat.bank.in,app196285.prod.cudawaas.com,Dangling CNAME (miscellaneous target),MEDIUM,Canara Bank (UAT zone),26 August 2026
+www.cboi.bank.in,cboi.bank.in,Dangling CNAME (miscellaneous target),MEDIUM,Central Bank of India (cboi.zone),26 August 2026
+turnvkyc.csb.bank.in,csb-prod-video-nlb-9f252aff597c1c92.elb.ap-south-1.amazonaws.com,AWS ELB/ALB dangling CNAME (reclaimable name),CRITICAL,CSB Bank Ltd (formerly Catholic Syrian Bank),26 August 2026
+vkyc.csb.bank.in,csb-prod-web-alb-1034887934.ap-south-1.elb.amazonaws.com,AWS ELB/ALB dangling CNAME (reclaimable name),CRITICAL,CSB Bank Ltd (formerly Catholic Syrian Bank),26 August 2026
+aping-ideal-uat.dbs.bank.in,aping-ideal-uat.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+aping-ideal.dbs.bank.in,aping-ideal.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+consumers-api.dbs.bank.in,consumers-api.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+egov-uat.dbs.bank.in,egov-uat.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+egov.dbs.bank.in,egov.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+gem-rapiduat.dbs.bank.in,gem-rapiduat.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+gem.dbs.bank.in,gem.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+gem-rapid.dbs.bank.in,gem-rapid.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+gem-uat.dbs.bank.in,gem-uat.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+partners-api.dbs.bank.in,partners-api.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+prod-in-enc.dbs.bank.in,prod-in-enc.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+uat-consumers-api.dbs.bank.in,uat-consumers-api.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+uat-enc.dbs.bank.in,uat-enc.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+uat-partners-api.dbs.bank.in,uat-partners-api.dbs.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,DBS Bank India Ltd,26 August 2026
+www.devigayatri.bank.in,43.255.154.56,Invalid CNAME pointing at bare IP,LOW,Devi Gayatri (co-operative bank registrant),26 August 2026
+dev.emiratesnbd.bank.in,dev.emiratesnbd.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Emirates NBD (India operations),26 August 2026
+preprod.emiratesnbd.bank.in,preprod.emiratesnbd.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Emirates NBD (India operations),26 August 2026
+uat.emiratesnbd.bank.in,uat.emiratesnbd.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Emirates NBD (India operations),26 August 2026
+asset.hdfc.bank.in,d1wsttm9l9x0m5.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,HDFC Bank Ltd,26 August 2026
+corporateservices.hdfcuat.bank.in,ves-io-f659058e-f5e6-481b-aa08-9261dd4fe0e2.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,HDFC Bank Ltd,26 August 2026
+emailers.hdfc.bank.in,ves-io-2e548570-0e80-47f1-94f1-2df68a7ebb79.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,HDFC Bank Ltd,26 August 2026
+emailersut.hdfcuat.bank.in,ves-io-c2f9f17b-4e79-4c17-aec4-5ddc41cb5dfe.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,HDFC Bank Ltd,26 August 2026
+hdfcbl.hdfcuat.bank.in,ves-io-784c0448-c853-4bd0-a484-3a7a9c73ec83.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,HDFC Bank Ltd,26 August 2026
+mybusiness.uatdigital.hdfcuat.bank.in,nwinfra-inbound-uat-bizexp-alb-597088414.ap-south-1.elb.amazonaws.com,AWS ELB/ALB dangling CNAME (reclaimable name),HIGH,HDFC Bank Ltd,26 August 2026
+scmuat1.hdfcuat.bank.in,ves-io-9ca6efa3-e3b6-4aba-9f21-14f677a08470.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,HDFC Bank Ltd,26 August 2026
+translation.hdfc.bank.in,d1wsttm9l9x0m5.cloudfront.net,CloudFront dangling CNAME (alias attach requires domain validation; not claimable),LOW,HDFC Bank Ltd,26 August 2026
+adapidpoc.idbi.bank.in,deepalgo-alb-1014365206.ap-south-1.elb.amazonaws.com,AWS ELB/ALB dangling CNAME (reclaimable name),HIGH,IDBI Bank Ltd,26 August 2026
+accdevorg.cc.idfcfirst.bank.in,accdevorg.cc.idfcfirst.bank.in.00d2v000002fkdueag.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+commercial.idfcfirst.bank.in,commercial.idfcfirst.bank.in.00dnt000001ht532ag.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+hfdev.dm.idfcfirst.bank.in,hfdev.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+hfsit.dm.idfcfirst.bank.in,hfsit.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+preprod.dm.idfcfirst.bank.in,preprod.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+preprod.wholesale.idfcfirst.bank.in,preprod.wholesale.idfcfirst.bank.in.00d2w00000drufmean.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+wbqacorp.wholesale.idfcfirst.bank.in,wbqacorp.wholesale.idfcfirst.bank.in.00d2w00000drufmean.live.siteforce.com,Salesforce Sites dangling CNAME (deleted site claimable),HIGH,IDFC First Bank Ltd,26 August 2026
+www.partner.idfcfirst.bank.in,www.partner.idfcfirst.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,IDFC First Bank Ltd,26 August 2026
+www.web.partnerportal.idfcfirst.bank.in,www.web.partnerportal.idfcfirst.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,IDFC First Bank Ltd,26 August 2026
+indusupipreprd.indusind.bank.in,ves-io-5dae1a1b-f8bd-47d5-8615-8c48e2a73e1d.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,IndusInd Bank Ltd,26 August 2026
+indusupiprd.indusind.bank.in,ves-io-35f55266-c295-495e-be45-70cab758b574.ac.vh.ves.io,F5 Distributed Cloud (Volterra) deleted load balancer (name claimable),HIGH,IndusInd Bank Ltd,26 August 2026
+mail.ipc.bank.in,ipc.bank.in,Dangling CNAME (miscellaneous target),MEDIUM,IPC (ipc.bank.in registrant),26 August 2026
+www.ipc.bank.in,ipc.bank.in,Dangling CNAME (miscellaneous target),MEDIUM,IPC (ipc.bank.in registrant),26 August 2026
+www.jagruticoop.bank.in,43.255.154.56,Invalid CNAME pointing at bare IP,LOW,Jagruti Co-operative Bank,26 August 2026
+login-sit.test.jpmorgan.bank.in,login-sit.test.jpmorgan.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,J.P. Morgan (JPMorgan Chase India operations),26 August 2026
+wca-u02.jpmorgan.bank.in,wca-u02.intl.gslbjpmchase.com,Dangling CNAME (miscellaneous target),MEDIUM,J.P. Morgan (JPMorgan Chase India operations),26 August 2026
+811sentry.uat.kotak811.bank.in,811sentry.uat.kotak811.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Kotak Mahindra Bank Ltd,26 August 2026
+811apppurezento-dr.kotak811.bank.in,811apppurezento-dr.kotak811.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Kotak Mahindra Bank Ltd,26 August 2026
+nb3dev.kotakuat.bank.in,nb3dev.kotakuat.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Kotak Mahindra Bank Ltd,26 August 2026
+nb3uat.kotakuat.bank.in,nb3uat.kotakuat.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Kotak Mahindra Bank Ltd,26 August 2026
+www.kapps.kotak.bank.in,www.kapps.kotak.bank.in.cdn.cloudflare.net,Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable),LOW,Kotak Mahindra Bank Ltd,26 August 2026
+siapis.sbi.bank.in,siapis.sbi.bank.in.akadns.net,Broken Akamai authoritative-DNS delegation,HIGH,State Bank of India,26 August 2026
+www.spc.bank.in,162.241.85.151,Invalid CNAME pointing at bare IP,LOW,SPC (spc.bank.in registrant),26 August 2026
+nearmeuat.ujjivansfb.bank.in,ujjivan-uat.singleinterface.com,Dangling CNAME (miscellaneous target),MEDIUM,Ujjivan Small Finance Bank Ltd,26 August 2026
+www.umucb.bank.in,52.66.54.46,Invalid CNAME pointing at bare IP,LOW,UMUCB (urban co-operative bank registrant),26 August 2026
+apibanking.unionbankofindia.bank.in,apibanking.unionbankofindia.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,Union Bank of India,26 August 2026
+cmsdbp.unionbankofindia.bank.in,cmsdbp.unionbankofindia.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,Union Bank of India,26 August 2026
+developer.unionbankofindia.bank.in,developer.unionbankofindia.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,Union Bank of India,26 August 2026
+msmelow.unionbankofindia.bank.in,msmselow.unionbankofindia.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,Union Bank of India,26 August 2026
+retail.unionbankofindia.bank.in,retail.unionbankofindia.bank.in.edgekey.net,Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract),MEDIUM,Union Bank of India,26 August 2026
+www.zpshikshakbankamt.bank.in,zpshikshakbank.bank.in,Dangling CNAME (miscellaneous target),MEDIUM,Zilla Parishad Shikshak Sahakari Bank (AMT),26 August 2026

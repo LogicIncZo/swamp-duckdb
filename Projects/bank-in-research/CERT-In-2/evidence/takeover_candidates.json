@@ -1,0 +1,658 @@
+[
+ {
+  "host": "811sentry.uat.kotak811.bank.in",
+  "cname": "811sentry.uat.kotak811.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "811apppurezento-dr.kotak811.bank.in",
+  "cname": "811apppurezento-dr.kotak811.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "accdevorg.cc.idfcfirst.bank.in",
+  "cname": "accdevorg.cc.idfcfirst.bank.in.00d2v000002fkdueag.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "adapidpoc.idbi.bank.in",
+  "cname": "deepalgo-alb-1014365206.ap-south-1.elb.amazonaws.com",
+  "dangling": true,
+  "service": "AWS (S3/ELB)",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS ELB/ALB dangling CNAME (reclaimable name)"
+ },
+ {
+  "host": "aping-ideal-uat.dbs.bank.in",
+  "cname": "aping-ideal-uat.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "aping-ideal.dbs.bank.in",
+  "cname": "aping-ideal.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "apibanking.unionbankofindia.bank.in",
+  "cname": "apibanking.unionbankofindia.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "apollo-content.axis.bank.in",
+  "cname": "d13dwtmxjp7qqk.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "asset.hdfc.bank.in",
+  "cname": "d1wsttm9l9x0m5.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "commercial.idfcfirst.bank.in",
+  "cname": "commercial.idfcfirst.bank.in.00dnt000001ht532ag.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "cmsdbp.unionbankofindia.bank.in",
+  "cname": "cmsdbp.unionbankofindia.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "consumers-api.dbs.bank.in",
+  "cname": "consumers-api.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "corporateservices.hdfcuat.bank.in",
+  "cname": "ves-io-f659058e-f5e6-481b-aa08-9261dd4fe0e2.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "dev.emiratesnbd.bank.in",
+  "cname": "dev.emiratesnbd.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "developer.unionbankofindia.bank.in",
+  "cname": "developer.unionbankofindia.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "devneo.axis.bank.in",
+  "cname": "ad81a19ad1c875ade.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "devneopay.axis.bank.in",
+  "cname": "a98a41db71f1fff3a.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "egov-uat.dbs.bank.in",
+  "cname": "egov-uat.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "egov.dbs.bank.in",
+  "cname": "egov.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "emailers.hdfc.bank.in",
+  "cname": "ves-io-2e548570-0e80-47f1-94f1-2df68a7ebb79.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "emailersut.hdfcuat.bank.in",
+  "cname": "ves-io-c2f9f17b-4e79-4c17-aec4-5ddc41cb5dfe.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "gem-rapiduat.dbs.bank.in",
+  "cname": "gem-rapiduat.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "gem.dbs.bank.in",
+  "cname": "gem.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "gem-rapid.dbs.bank.in",
+  "cname": "gem-rapid.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "gem-uat.dbs.bank.in",
+  "cname": "gem-uat.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "hdfcbl.hdfcuat.bank.in",
+  "cname": "ves-io-784c0448-c853-4bd0-a484-3a7a9c73ec83.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "hfdev.dm.idfcfirst.bank.in",
+  "cname": "hfdev.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "hfsit.dm.idfcfirst.bank.in",
+  "cname": "hfsit.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "indusupipreprd.indusind.bank.in",
+  "cname": "ves-io-5dae1a1b-f8bd-47d5-8615-8c48e2a73e1d.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "indusupiprd.indusind.bank.in",
+  "cname": "ves-io-35f55266-c295-495e-be45-70cab758b574.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "juno-content.axis.bank.in",
+  "cname": "d1ovscizflyfb3.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "login-sit.test.jpmorgan.bank.in",
+  "cname": "login-sit.test.jpmorgan.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "mail.ipc.bank.in",
+  "cname": "ipc.bank.in",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "mercury-content.axis.bank.in",
+  "cname": "d15i12s32m5q24.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "msmelow.unionbankofindia.bank.in",
+  "cname": "msmselow.unionbankofindia.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "mybusiness.uatdigital.hdfcuat.bank.in",
+  "cname": "nwinfra-inbound-uat-bizexp-alb-597088414.ap-south-1.elb.amazonaws.com",
+  "dangling": true,
+  "service": "AWS (S3/ELB)",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS ELB/ALB dangling CNAME (reclaimable name)"
+ },
+ {
+  "host": "nb3dev.kotakuat.bank.in",
+  "cname": "nb3dev.kotakuat.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "nb3uat.kotakuat.bank.in",
+  "cname": "nb3uat.kotakuat.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "nearmeuat.ujjivansfb.bank.in",
+  "cname": "ujjivan-uat.singleinterface.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "neo.axis.bank.in",
+  "cname": "a85426234ca3c91e3.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "neocldweb.axis.bank.in",
+  "cname": "d1r0faotr5jcix.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "neopay.axis.bank.in",
+  "cname": "ad2630be5e827fd7e.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "neocldapp.axis.bank.in",
+  "cname": "d1feaw0wpl3snc.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "nucleus-content.axis.bank.in",
+  "cname": "d26jekaep9z3yg.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "oniuat.axis.bank.in",
+  "cname": "a841df261f5f29b0b.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "partners-api.dbs.bank.in",
+  "cname": "partners-api.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "preprod.dm.idfcfirst.bank.in",
+  "cname": "preprod.dm.idfcfirst.bank.in.00d2w000002jveveaq.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "preprod.wholesale.idfcfirst.bank.in",
+  "cname": "preprod.wholesale.idfcfirst.bank.in.00d2w00000drufmean.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "prod-in-enc.dbs.bank.in",
+  "cname": "prod-in-enc.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "preprod.emiratesnbd.bank.in",
+  "cname": "preprod.emiratesnbd.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "qaneopay.axis.bank.in",
+  "cname": "adfc74bab6e1091a2.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "qaneo.axis.bank.in",
+  "cname": "a2875293e8ce78399.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "retail.unionbankofindia.bank.in",
+  "cname": "retail.unionbankofindia.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "scmuat1.hdfcuat.bank.in",
+  "cname": "ves-io-9ca6efa3-e3b6-4aba-9f21-14f677a08470.ac.vh.ves.io",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "F5 Distributed Cloud (Volterra) deleted load balancer (name claimable)"
+ },
+ {
+  "host": "sitvelocitypay.axis.bank.in",
+  "cname": "aa4da80d046aa7135.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "sitvelocity.axis.bank.in",
+  "cname": "a1c8f5525d2030f8e.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "siapis.sbi.bank.in",
+  "cname": "siapis.sbi.bank.in.akadns.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai authoritative DNS (broken delegation)"
+ },
+ {
+  "host": "supernova-content.axis.bank.in",
+  "cname": "d2bf6tjmdy10dn.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "translation.hdfc.bank.in",
+  "cname": "d1wsttm9l9x0m5.cloudfront.net",
+  "dangling": true,
+  "service": "AWS CloudFront",
+  "target_status": "no-A",
+  "cls": "CloudFront dangling CNAME (alias attach requires domain validation; not claimable)"
+ },
+ {
+  "host": "turnvkyc.csb.bank.in",
+  "cname": "csb-prod-video-nlb-9f252aff597c1c92.elb.ap-south-1.amazonaws.com",
+  "dangling": true,
+  "service": "AWS (S3/ELB)",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS ELB/ALB dangling CNAME (reclaimable name)"
+ },
+ {
+  "host": "uat-consumers-api.dbs.bank.in",
+  "cname": "uat-consumers-api.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "uat-enc.dbs.bank.in",
+  "cname": "uat-enc.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "uat-partners-api.dbs.bank.in",
+  "cname": "uat-partners-api.dbs.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "uat.emiratesnbd.bank.in",
+  "cname": "uat.emiratesnbd.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "uatembsaas.axis.bank.in",
+  "cname": "af924497213569bd2.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "uatembsaaspay.axis.bank.in",
+  "cname": "a46a81487ad9e3583.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "uatvelocity.axis.bank.in",
+  "cname": "a993919e3c123b819.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "uatneo.axis.bank.in",
+  "cname": "a300fc6ffde89e4dd.awsglobalaccelerator.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS Global Accelerator orphaned static IP set (random ID; unclaimable by design)"
+ },
+ {
+  "host": "vkyc.csb.bank.in",
+  "cname": "csb-prod-web-alb-1034887934.ap-south-1.elb.amazonaws.com",
+  "dangling": true,
+  "service": "AWS (S3/ELB)",
+  "target_status": "NXDOMAIN",
+  "cls": "AWS ELB/ALB dangling CNAME (reclaimable name)"
+ },
+ {
+  "host": "waf.canarauat.bank.in",
+  "cname": "app196285.prod.cudawaas.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "wbqacorp.wholesale.idfcfirst.bank.in",
+  "cname": "wbqacorp.wholesale.idfcfirst.bank.in.00d2w00000drufmean.live.siteforce.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Salesforce Sites dangling CNAME (deleted site claimable)"
+ },
+ {
+  "host": "wca-u02.jpmorgan.bank.in",
+  "cname": "wca-u02.intl.gslbjpmchase.com",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "www.cboi.bank.in",
+  "cname": "cboi.bank.in",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "www.devigayatri.bank.in",
+  "cname": "43.255.154.56",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "CNAME to bare IP literal (invalid record)"
+ },
+ {
+  "host": "www.jagruticoop.bank.in",
+  "cname": "43.255.154.56",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "CNAME to bare IP literal (invalid record)"
+ },
+ {
+  "host": "www.ipc.bank.in",
+  "cname": "ipc.bank.in",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ },
+ {
+  "host": "www.kapps.kotak.bank.in",
+  "cname": "www.kapps.kotak.bank.in.cdn.cloudflare.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "no-A",
+  "cls": "Cloudflare partial-zone dangling configuration (custom-hostname validation required; not claimable)"
+ },
+ {
+  "host": "www.partner.idfcfirst.bank.in",
+  "cname": "www.partner.idfcfirst.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "www.spc.bank.in",
+  "cname": "162.241.85.151",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "CNAME to bare IP literal (invalid record)"
+ },
+ {
+  "host": "www.umucb.bank.in",
+  "cname": "52.66.54.46",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "CNAME to bare IP literal (invalid record)"
+ },
+ {
+  "host": "www.web.partnerportal.idfcfirst.bank.in",
+  "cname": "www.web.partnerportal.idfcfirst.bank.in.edgekey.net",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Akamai edge hostname dangling CNAME (ownership-validated; not claimable without contract)"
+ },
+ {
+  "host": "www.zpshikshakbankamt.bank.in",
+  "cname": "zpshikshakbank.bank.in",
+  "dangling": true,
+  "service": "unknown",
+  "target_status": "NXDOMAIN",
+  "cls": "Dangling CNAME (miscellaneous target)"
+ }
+]
